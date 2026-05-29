@@ -14,7 +14,7 @@ export default function Education() {
       featured: true,
     },
     {
-      institution: "Nagarjuna Junior College",
+      institution: "Narayana Junior College",
       degree: "Intermediate Education (MPC)",
       duration: "Completed",
       location: "Hyderabad, India",
