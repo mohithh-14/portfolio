@@ -135,14 +135,12 @@ export default function Education() {
                   </div>
 
                   {/* Centered Timeline Dot indicator */}
-                  <div className="absolute left-4 md:left-1/2 -translate-x-1/2 top-2 z-10 flex col-span-1 items-center justify-center">
-                    <div className={`w-8 h-8 rounded-full flex items-center justify-center ring-4 ring-white shadow-md transition-transform duration-300 hover:scale-110 ${
-                      item.featured
-                        ? "bg-primary text-white"
-                        : "bg-slate-50 border border-slate-200 text-slate-500"
-                    }`}>
-                      <GraduationCap className="w-4 h-4" />
-                    </div>
+                  <div className={`absolute left-4 md:left-1/2 -translate-x-1/2 top-2 z-10 w-8 h-8 rounded-full flex items-center justify-center ring-4 ring-white shadow-md transition-transform duration-300 hover:scale-110 ${
+                    item.featured
+                      ? "bg-primary text-white"
+                      : "bg-slate-50 border border-slate-200 text-slate-500"
+                  }`}>
+                    <GraduationCap className="w-4 h-4" />
                   </div>
 
                   {/* Right Column Card (Desktop Odd - alternates to the right) */}
