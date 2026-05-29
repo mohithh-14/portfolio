@@ -73,10 +73,10 @@ export default function Education() {
         <div className="relative py-8">
           
           {/* Centered Vertical Line on Desktop */}
-          <div className="absolute left-[15px] md:left-[calc(50%-1px)] top-0 bottom-0 w-[2px] bg-slate-100" />
+          <div className="absolute left-4 md:left-1/2 -translate-x-1/2 top-0 bottom-0 w-[2px] bg-slate-100" />
 
           {/* Active fill blue indicator track */}
-          <div className="absolute left-[15px] md:left-[calc(50%-1px)] top-0 bottom-[15%] w-[2px] bg-primary shadow-[0_0_15px_rgba(37,99,235,0.4)]" />
+          <div className="absolute left-4 md:left-1/2 -translate-x-1/2 top-0 bottom-[15%] w-[2px] bg-primary shadow-[0_0_15px_rgba(37,99,235,0.4)]" />
 
           <div className="space-y-16 relative">
             {educationTimeline.map((item, idx) => {
@@ -135,12 +135,14 @@ export default function Education() {
                   </div>
 
                   {/* Centered Timeline Dot indicator */}
-                  <div className={`absolute left-0 md:left-[calc(50%-16px)] top-2 z-10 w-8 h-8 rounded-full flex items-center justify-center ring-4 ring-white shadow-md transition-transform duration-300 hover:scale-110 ${
-                    item.featured
-                      ? "bg-primary text-white"
-                      : "bg-slate-50 border border-slate-200 text-slate-500"
-                  }`}>
-                    <GraduationCap className="w-4 h-4" />
+                  <div className="absolute md:relative left-4 md:left-auto top-2 md:top-auto z-10 flex md:col-span-1 items-center justify-center">
+                    <div className={`w-8 h-8 rounded-full flex items-center justify-center ring-4 ring-white shadow-md transition-transform duration-300 hover:scale-110 ${
+                      item.featured
+                        ? "bg-primary text-white"
+                        : "bg-slate-50 border border-slate-200 text-slate-500"
+                    }`}>
+                      <GraduationCap className="w-4 h-4" />
+                    </div>
                   </div>
 
                   {/* Right Column Card (Desktop Odd - alternates to the right) */}
