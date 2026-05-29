@@ -128,7 +128,7 @@ export default function Hero() {
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-semibold rounded-2xl border border-dashed border-slate-200 text-slate-500 hover:border-primary hover:text-primary transition-all duration-300 hover:-translate-y-0.5"
             >
               <Download className="w-4 h-4 text-primary animate-bounce" />
-              <span>Download CV</span>
+              <span>Download Resume</span>
             </a>
           </motion.div>
         </div>
