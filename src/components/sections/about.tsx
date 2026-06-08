@@ -35,6 +35,7 @@ export default function About() {
   const academicDetails = [
     { label: "Degree", value: "B.Tech Computer Science & Engineering (Data Science)" },
     { label: "Institution", value: "Anurag University" },
+    { label: "CGPA", value: "7.55 (Upto 5th Semester)" },
     { label: "Core Foundation", value: "Java, Python, SQL, REST APIs, JPA/Hibernate" },
     { label: "Philosophy", value: "Bridging advanced machine learning models with responsive, elegant user-centric web applications." },
   ];

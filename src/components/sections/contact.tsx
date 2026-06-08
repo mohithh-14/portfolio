@@ -100,8 +100,8 @@ export default function Contact() {
   const contactMethods = [
     {
       label: "Email Me Directly",
-      value: "mohithch662@gmail.com",
-      href: "mailto:mohithch662@gmail.com",
+      value: "mohith0309@gmail.com",
+      href: "mailto:mohith0309@gmail.com",
       icon: Mail,
       color: "text-blue-500 bg-blue-50 border-blue-100",
     },
