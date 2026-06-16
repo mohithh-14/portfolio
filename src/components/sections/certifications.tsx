@@ -6,11 +6,11 @@ import { Award, Cloud, Cpu, LineChart, Network, Terminal, ShieldCheck } from "lu
 export default function Certifications() {
   const certs = [
     {
-      title: "Mastering AI on AWS (AI Practitioner)",
-      issuer: "Udemy - School of AI",
-      icon: Cloud,
-      color: "from-orange-500 to-amber-500",
-      bgGlow: "rgba(249, 115, 22, 0.04)",
+      title: "ServiceNow Virtual Internship Program",
+      issuer: "AICTE - SmartBridge - ServiceNow University",
+      icon: Award,
+      color: "from-teal-500 to-emerald-500",
+      bgGlow: "rgba(20, 184, 166, 0.04)",
       status: "Verified",
     },
     {
@@ -27,6 +27,14 @@ export default function Certifications() {
       icon: Cpu,
       color: "from-indigo-500 to-purple-500",
       bgGlow: "rgba(99, 102, 241, 0.04)",
+      status: "Verified",
+    },
+    {
+      title: "Mastering AI on AWS (AI Practitioner)",
+      issuer: "Udemy - School of AI",
+      icon: Cloud,
+      color: "from-orange-500 to-amber-500",
+      bgGlow: "rgba(249, 115, 22, 0.04)",
       status: "Verified",
     },
     {
@@ -67,14 +75,6 @@ export default function Certifications() {
       icon: Network,
       color: "from-indigo-600 to-blue-500",
       bgGlow: "rgba(79, 70, 229, 0.04)",
-      status: "Verified",
-    },
-    {
-      title: "Networking Essentials",
-      issuer: "Cisco Networking Academy",
-      icon: Network,
-      color: "from-slate-600 to-slate-800",
-      bgGlow: "rgba(71, 85, 105, 0.04)",
       status: "Verified",
     },
   ];
